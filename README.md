@@ -1,12 +1,13 @@
 # Docker-practice-demo-02
 Create a docker compose with mongo-db and mongo-express containers
 
+```cmd
 docker-compose -f docker-compose.yaml up
-
+```
 -f stands for file and docker-compose.yaml is the file name and up stand for create and start containers.
 
 -------------------------------
-Volumes
+## Volumes
 
 Randomly it might generate a new volume for the container and there is no data persistence of the data. When we are creating data volumes there is data persistence for the data. Even if we stop the container the data will be always going to be there.
 
